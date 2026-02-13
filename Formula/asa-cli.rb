@@ -2,7 +2,7 @@ class AsaCli < Formula
   desc "CLI for the Apple Search Ads Campaign Management API v5"
   homepage "https://github.com/TrebuhS/Apple-Search-Ads-CLI"
   url "https://github.com/TrebuhS/Apple-Search-Ads-CLI/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "3dda015def7e1c836df2e30d54b6ea9875303f9a8cce664a3132634b3cc9133c"
+  sha256 "1e7b7925db8dedc13cf33f2efb002b217148cbfaca46f6a8c60940cf12280741"
   license "MIT"
 
   depends_on "go" => :build
