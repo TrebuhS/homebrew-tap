@@ -11,7 +11,7 @@ class AsaCli < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/TrebuhS/Apple-Search-Ads-CLI/releases/download/v1.0.1/asa-cli_darwin_amd64.tar.gz"
-      sha256 "7c124cc2f67efddbda261926071d45d13e913c514f034822b469a78b9f743741"
+      sha256 "bd3167d81c4dbadb529fcd7d732830589b8053ee8bc9618f3372776814371d02"
 
       def install
         bin.install "asa-cli"
@@ -19,7 +19,7 @@ class AsaCli < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/TrebuhS/Apple-Search-Ads-CLI/releases/download/v1.0.1/asa-cli_darwin_arm64.tar.gz"
-      sha256 "861ae076f12b716406d1656c370a66bfd4b2d29ef1f7bda057934befe4006c8a"
+      sha256 "810003b4d999a728975caa199326599f3b6c88c8f9d480148f802cbc1b7700b5"
 
       def install
         bin.install "asa-cli"
@@ -30,14 +30,14 @@ class AsaCli < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/TrebuhS/Apple-Search-Ads-CLI/releases/download/v1.0.1/asa-cli_linux_amd64.tar.gz"
-      sha256 "ca3bd36db7dd1d1c411c1ee9301a17cfbcc3b24770b6021da9810f0d82e78f37"
+      sha256 "383cf62a3832331542259effa69d9e5f2926a715205958ad0916e384b7442923"
       def install
         bin.install "asa-cli"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/TrebuhS/Apple-Search-Ads-CLI/releases/download/v1.0.1/asa-cli_linux_arm64.tar.gz"
-      sha256 "7d49fabfa0f5893f6f94e29f1d0658ec2e898fbd39ee32711da40f4771032acc"
+      sha256 "53c502a73ff3fba834353fc6244a55211e49db6117aa2cb0805606213bdfc1f5"
       def install
         bin.install "asa-cli"
       end
